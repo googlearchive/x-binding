@@ -1,5 +1,6 @@
 {
   "name": "x-binding",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "version": "0.1.1"
 }
