@@ -10,8 +10,8 @@ license that can be found in the LICENSE file.
         name = arguments[0].name;
         element = arguments[0].obj;
       }
-      if (element && element.bindings) {
-        var binding = element.bindings[name];
+      if (element && element.bindings_) {
+        var binding = element.bindings_[name];
         if (binding) {
           return binding.path;
         }
